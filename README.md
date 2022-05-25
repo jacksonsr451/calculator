@@ -2,9 +2,9 @@
 
 - A ideia é para estudar DDD, TDD, CleanArchitecture utilizando Python.
 
-### (Area relacionada Domain)[https://github.com/jacksonsr451/calculator/tree/master/domain]
+### (https://github.com/jacksonsr451/calculator/tree/master/domain)[Area relacionada Domain]
 
-### (Area relacionada a CleanArchitecture)[https://github.com/jacksonsr451/calculator/tree/master/architecture]
+### (https://github.com/jacksonsr451/calculator/tree/master/architecture)[Area relacionada a CleanArchitecture]
 
-### (Area relacionada ao App)[https://github.com/jacksonsr451/calculator/tree/master/app]
+### (https://github.com/jacksonsr451/calculator/tree/master/app)[Area relacionada ao App]
 
