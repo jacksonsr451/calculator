@@ -11,7 +11,9 @@ setup(
     url='https://github.com/jacksonsr45/calculator',
     install_requires=[
         ],
-    packages=find_packages(exclude=['*__tests__*', ]),
+    packages=find_packages(exclude=[
+            'app.__tests__.*', 'domain.__tests__.*', 'architecture.__tests__.*',
+        ]),
     entry_points={
             'console_scripts': [
                 'calculator-cli = app.main:main'
