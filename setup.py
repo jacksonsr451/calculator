@@ -10,10 +10,12 @@ setup(
     author_email='jacksonsr45@gmail.com',
     url='https://github.com/jacksonsr45/calculator',
     install_requires=[
+            'unittest2>=1.1.0',
         ],
-    packages=find_packages(exclude=[
-            'app.__tests__.*', 'domain.__tests__.*', 'architecture.__tests__.*',
-        ]),
+    extras_require={
+        'test': ['unittest2',],
+    },
+    packages=find_packages(),
     entry_points={
             'console_scripts': [
                 'calculator-cli = app.main:main'
